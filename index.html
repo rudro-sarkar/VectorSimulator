@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="define_vector_div">
+        <h4>Define Vectors</h4>
+        <div class="input_area">
+            <div class="input_row">
+                <input type="text" placeholder="Enter a keyword (A - Z)" class="vector_name" id="vector_keyword_inp">
+            </div>
+            <div class="input_row">
+                <input type="number" placeholder="Enter the magnitude (Ignore Unit)" class="vector_name"
+                    id="vector_mag_inp">
+            </div>
+            <div class="input_row">
+                <input type="number" placeholder="Enter the direction (Anti-clockwise to X Axis)" class="vector_name"
+                    id="vector_dir_inp">
+            </div>
+            <button class="calculate_vectors" id="define_vector_btn">Define Vector</button>
+        </div>
+    </div>
+
+    <div class="vector_display_div" id="vector_display_div">
+        <!-- <div class="vector_card">
+            <p class="vector_name">A =></p>
+            <p class="vector_mag">Mag: 456U</p>    <format>
+            <p class="vector_dir">Dir: 56°</p>
+        </div> -->
+
+        <!-- Codes are injected by JavaScript Here -->
+
+    </div>
+
+    <button class="calc_resultant_btn" id="calc_resultant_btn">Calculate Resultant</button>
+
+    <div class="vector_result_div" id="vector_result_div">
+        <p class="result_div_mag_view">Resultant: <span id="resulatant_span_view"></span> U</p> 
+        <p class="result_div_dir_view">Direction: <span id="direction_span_view"></span>° Acw-X</p>  
+    </div>
+
+    <button class="visual_simulation_btn" id="visual_simulation_btn">Generate Visual Representation</button>
+
+    <div class="visual_representation_div" id="visual_representation_div">
+        <div class="x_axis_div">X</div> <div class="y_axis_div">Y</div>
+
+        <div class="vector_line" id="vector_line_comp">
+          <div class="line"></div>
+          <div class="point"><i class='bx bxs-right-arrow'></i></div>
+        </div>
+        
+    </div>
+
+    <div class="blank_space_qerd"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./vectors.js"></script>
+    <script src="./script.js"></script>
+    <script src="./visuals.js"></script>
+</body>
+
+</html>
