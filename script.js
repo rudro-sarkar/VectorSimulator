@@ -513,12 +513,12 @@ async function contact_me_alert() {
 
 const redirect_to_contact = (platform) =>{
     if (platform == "fb") {
-        window.open('https://www.facebook.com/profile.php?id=100073750126634', '_blank');
+        window.open('url hidden', '_blank');
     }
     else if (platform == "ins") {
-        window.open('https://www.instagram.com/__rud_ro_?igsh=dzMzOWx1NmFqZnE0', '_blank');
+        window.open('url hidden', '_blank');
     }
     else if (platform == "tg") {
-        window.open('https://t.me/+niOT4Fo-VY5lZGU1', '_blank');
+        window.open('url hidden', '_blank');
     }
 }
