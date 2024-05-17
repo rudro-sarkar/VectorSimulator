@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.define_vector_div {
+    height: 20rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_area {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input_row {
+    height: 2.6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_row .vector_name {
+    height: 80%;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0e97c9;
+    text-align: center
+}
+
+.input_area .calculate_vectors {
+    height: 2rem;
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: #2e64a6;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.vector_display_div {
+    /* height: 15rem; */
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.vector_display_div .vector_card {
+    height: 2rem;
+    width: 100%;
+    background-color: #474d4f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+}
+
+.vector_display_div .vector_mag {
+    padding-left: 2rem;
+}
+
+.vector_display_div .vector_dir {
+    padding-left: 2rem;
+}
+
+.calc_resultant_btn {
+    height: 2rem;
+    width: 19.8rem;
+    /* 90% of 22rem */
+    border: none;
+    outline: none;
+    background-color: #1bb54c;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.vector_result_div {
+    min-width: 30%;
+    height: 6rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ebedec;
+}
+
+.visual_simulation_btn {
+    display: none;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 19.8rem;
+    /* 90% of 22rem */
+    border: none;
+    outline: none;
+    background-color: #7e358f;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.visual_representation_div {
+    height: 15rem;
+    width: 19.8rem;
+    border-radius: 8px;
+    background-color: #ebedec;
+    margin-top: 1rem;
+    position: relative;
+    display: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.blank_space_qerd {
+    height: 19.8rem;
+    width: 19.8rem;
+    margin-top: 1rem;
+}
+
+.x_axis_div {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+
+.y_axis_div {
+    background-color: black;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    right: 50%;
+}
+
+.vector_line {
+    height: 12px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    transform-origin: left center;
+}
+
+.vector_line .line {
+    height: 2px;
+    width: 90%;
+    background-color: #14753b;
+}
+
+.vector_line .point {
+    height: 100%;
+    width: 10%;
+    font-size: 10px;
+    position: relative;
+}
+
+.vector_line .point i {
+    position: absolute;
+    left: -20%;
+    top: 10%;
+    color: #14753b;
+}
+
+.contact_me_btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+    width: 6.93rem;
+    /* 35% of 19.8rem */
+    border: none;
+    outline: none;
+    background-color: #851c1c;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 2rem;
+}
