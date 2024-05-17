@@ -195,7 +195,6 @@ const proceed_calculation = () => {
         let v3m = vectors.vector_3.mag;
         let v3d = vectors.vector_3.dir * Math.PI / 180;
 
-
         let Rcost = v1m * Math.cos(v1d) + v2m * Math.cos(v2d) + v3m * Math.cos(v3d);
         let Rsint = v1m * Math.sin(v1d) + v2m * Math.sin(v2d) + v3m * Math.sin(v3d);
 
